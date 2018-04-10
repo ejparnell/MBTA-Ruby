@@ -1,8 +1,9 @@
 # frozen_string_literal: true
+
 require_relative '../lib/practice.rb'
-RSpec.describe MBTA::Subway::System do
+RSpec.describe System do
   before :all do
-    @mbta = MBTA::Subway::System.new
+    @mbta = System.new
   end
 
   describe 'Red Line' do
@@ -77,7 +78,7 @@ RSpec.describe MBTA::Subway::System do
     end
   end
 
-  if MBTA::Subway::System.stretch
+  if System.stretch
     describe 'Green and Orange Lines' do
     end
   end
