@@ -8,30 +8,39 @@
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Create and checkout a new branch, named `response`.
-1.  Follow the directions given below.
-1.  When finished, push to your fork and submit a pull request (but it is not
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Create and checkout a new branch, named `response`.
+1. Follow the directions given below.
+1. When finished, push to your fork and submit a pull request (but it is not
     required).
 
 You may wish to refer to [FAQs](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/)
 related to [forking,
-cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone), and [pull
-requests](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/PullRequest).
+cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone), and
+[pull requests](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/PullRequest).
 
 ## Activity
 
-- Create a class in `lib/practice.rb` with a method `stops_between_stations` to calculate the number of stops between stations on the "MBTA". Write additional classes and or methods as needed.
-- The method takes the line and stop name that a rider is getting on at and the line and stop name that a rider is getting off at and **returns the total number of stops for the trip**.
-- When `MBTA::Subway::System.new` is called, its initialize method should store all the information needed in `stops_between_stations`.
+- Create a class in `lib/practice.rb` with a method `stops_between_stations` to
+  calculate the number of stops between stations on the "MBTA". Write additional
+  classes and or methods as needed.
+- The method takes the line and stop name that a rider is getting on at and the
+  line and stop name that a rider is getting off at and **returns the total
+  number of stops for the trip**.
+- When `MBTA::Subway::System.new` is called, its initialize method should store
+  all the information needed in `stops_between_stations`.
 
 There are 3 subway lines:
 
-- The Red line has the following stops: South Station, Park Street, Kendall, Central, Harvard, Porter, Davis, Alewife
-- The Green line has the following stops: Government Center, Park Street, Boylston, Arlington, Copley, Hynes, Kenmore
-- The Orange line has the following stops:  North Station, Haymarket, Park Street, State, Downtown Crossing, Chinatown, Back Bay, Forest Hills
-- All 3 subway lines intersect at *Park Street*, but there are no other intersection points. Some of this MBTA is fictionalized.
+- The Red line has the following stops: South Station, Park Street, Kendall,
+  Central, Harvard, Porter, Davis, Alewife
+- The Green line has the following stops: Government Center, Park Street,
+  Boylston, Arlington, Copley, Hynes, Kenmore
+- The Orange line has the following stops:  North Station, Haymarket, Park
+  Street, State, Downtown Crossing, Chinatown, Back Bay, Forest Hills
+- All 3 subway lines intersect at *Park Street*, but there are no other
+  intersection points. Some of this MBTA is fictionalized.
 
 ## Checking your solution
 
