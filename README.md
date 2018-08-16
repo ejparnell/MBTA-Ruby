@@ -2,14 +2,23 @@
 
 # MBTA Practice
 
-## To start
-
-Fork, clone, branch (practice) and bundle install
-
 ## Objectives
 
 - Practice with classes, methods, and collections.
-- You should submit a pull request for this practice, but it is not required.
+
+## Instructions
+
+1.  Fork and clone this repository.
+1.  Change into the new directory.
+1.  Create and checkout a new branch, named `response`.
+1.  Follow the directions given below.
+1.  When finished, push to your fork and submit a pull request (but it is not
+    required).
+
+You may wish to refer to [FAQs](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/)
+related to [forking,
+cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone), and [pull
+requests](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/PullRequest).
 
 ## Activity
 
