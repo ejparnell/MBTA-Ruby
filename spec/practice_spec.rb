@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require_relative '../lib/practice.rb'
-RSpec.describe System do
+RSpec.describe Subway do
   before :all do
-    @mbta = System.new
+    @mbta = Subway.new
   end
 
   describe 'Red Line' do
@@ -75,11 +75,6 @@ RSpec.describe System do
     it 'goes from "North Station" to "Kenmore"' do
       expect(@mbta.stops_between_stations('Orange', 'North Station',
                                           'Green', 'Kenmore')).to eq(7)
-    end
-  end
-
-  if System.stretch
-    describe 'Green and Orange Lines' do
     end
   end
 end
