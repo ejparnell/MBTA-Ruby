@@ -12,8 +12,7 @@
 1. Change into the new directory.
 1. Create and checkout a new branch, named `response`.
 1. Follow the directions given below.
-1. When finished, push to your fork and submit a pull request (but it is not
-    required).
+1. When finished, push to your fork and submit a pull request.
 
 You may wish to refer to [FAQs](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/)
 related to [forking,
